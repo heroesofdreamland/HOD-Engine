@@ -84,49 +84,6 @@ To use *HoD-Engine* for your own project or to contribute to *Heroes of Dreamlan
 - A compatible operating system (macOS, Windows, or Linux).
 - Git installed for cloning the repository.
 
-### Setup Instructions
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/heroes-of-dreamland.git
-   cd heroes-of-dreamland
-   ```
-
-2. **Create and activate a virtual environment**:
-   ```bash
-   python -m venv venv
-   ```
-   Or, if `python3` is required (common on Linux/macOS):
-   ```bash
-   python3 -m venv venv
-   ```
-   Activate the environment:
-   ```bash
-   source venv/bin/activate  # Linux/macOS
-   .\venv\Scripts\activate   # Windows
-   ```
-
-3. **Install dependencies**:
-   Ensure you have a `requirements.txt` file listing dependencies (e.g., `pygame`, `pyopengl`, etc.). Install them with:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   Or, if `pip3` is required:
-   ```bash
-   pip3 install -r requirements.txt
-   ```
-
-4. **Run the game**:
-   Execute the main file to launch *Heroes of Dreamland*, powered by HoD-Engine:
-   ```bash
-   python game.py
-   ```
-
-### Troubleshooting
-- **Missing `game_data` folder**: If `HoD/resources/game_data/` is missing, create it manually to store settings and progress.
-- **Resolution issues**: Go to *Settings > Screen* in-game to adjust the resolution.
-- **Camera issues**: If the camera feels off, set `box-camera` to `0` in settings to follow the player.
-- **Dependency errors**: Ensure all required libraries are listed in `requirements.txt`. If you encounter issues, check for missing dependencies like `pyopengl` or `pygame`.
-
 Report any issues on GitHub to help improve the engine!
 
 ## How to Contribute
